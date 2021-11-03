@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+<<<<<<< HEAD
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -74,3 +75,112 @@
 </footer>
 </body>
 </html>
+=======
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web-blog</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <a class="header__logo" href="/">
+        <img src="img/logo.png" alt="logo" width="126" height="23">
+      </a>
+      <button class="header__burger" type="button" aria-label="открыть меню"></button>
+      <div class="main-menu">
+        <p class="main-menu__title">> меню</p>
+        <button class="main-menu__close" type="button" aria-label="закрыть меню"></button>
+        <ul class="main-menu__list">
+          <li class="main-menu__item"><a class="main-menu__link" href="/">_посты</a></li>
+          <li class="main-menu__item"><a class="main-menu__link" href="/">_категории</a></li>
+          <li class="main-menu__item"><a class="main-menu__link" href="/">_полезное</a></li>
+          <li class="main-menu__item"><a class="main-menu__link" href="/">_обо мне</a></li>
+        </ul>
+
+        <ul class="social-menu">
+          <li class="social-menu__item"> 
+            <a class="social-menu__link social-menu__link--instagram" href="/" aria-label="instagram"></a>
+          </li>
+          <li class="social-menu__item"><a class="social-menu__link social-menu__link--vk" href="/" aria-label="vk"></a>
+          </li>
+          <li class="social-menu__item"><a class="social-menu__link social-menu__link--twitter" href="/"
+              aria-label="twitter"></a></li>
+          <li class="social-menu__item"><a class="social-menu__link social-menu__link--youtube" href="/"
+              aria-label="youtube"></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="content">
+    <h1 class="visually-hidden">web blog</h1>
+    <section class="profile">
+      <h2 class="visually-hidden">Обо мне</h2>
+      <img class="profile-image" src="/img/man.png" alt="Николай" width="115" height="115">
+      <ul class="profile__text">
+        <li class="profile__item">> Привет!</li>
+        <li class="profile__item">> Меня зовут Николай.</li>
+        <li class="profile__item">> Я верстальщик, и начинающий фронтенд-разработчик.</li>
+        <li class="profile__item">> Это мой блог, где я буду делиться своими мыслями относительно веб-разработки</li>
+      </ul>
+    </section>
+    <h2 class="posts__title">_новые посты</h2>
+    <section class="posts">
+      
+      <ul class="posts__list">
+        <li class="posts__item">
+          <div class="posts__heading">
+            <h3>Начинаю изучать Javascript</h3>
+            <time class="posts__date" datetime="2001-05-15 19:00">11.09.2021</time>
+          </div>
+          <div class="posts__content">
+            <img src="img/js.png" alt="js logo" width="115" height="115" class="posts__image" />
+            <p>Задача организации, в особенности же консультация с широким активом позволяет выполнять важные задания по
+              разработке форм развития. Повседневная практика показывает, что новая модель организационной деятельности
+              представляет собой интересный эксперимент проверки систем массового участия.</p>
+          </div>
+        </li>
+        <li class="posts__item">
+          <div class="posts__heading">
+            <h3>Время практики</h3>
+            <time class="posts__date" datetime="2001-05-15 19:00">10.09.2021</time>
+          </div>
+          <div class="posts__content">
+            <img src="img/laptop.png" alt="ноутбук на столе" width="115" height="115" class="posts__image"/>
+            <p>Задача организации, в особенности же консультация с широким активом позволяет выполнять важные задания по
+              разработке форм развития. Повседневная практика показывает, что новая модель организационной деятельности
+              представляет собой интересный эксперимент проверки систем массового участия.</p>
+          </div>
+        </li>
+        <li class="posts__item">
+          <div class="posts__heading">
+            <h3>Лето заканчивается</h3>
+            <time class="posts__date" datetime="2001-05-15 19:00">20.08.2021</time>
+          </div>
+          <div class="posts__content">
+            <img src="img/glasses.png" alt="солнечные очки лежат на песке на пляже" width="115" height="115" class="posts__image"/>
+            <p>Задача организации, в особенности же консультация с широким активом позволяет выполнять важные задания по
+              разработке форм развития. Повседневная практика показывает, что новая модель организационной деятельности
+              представляет собой интересный эксперимент проверки систем массового участия.</p>
+          </div>
+        </li>
+      </ul>
+      <a class="posts__more" href="/">смотреть остальные...</a>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__text">&copy; _web.blog 2021</p>
+  </footer>
+</body>
+
+</html>
+>>>>>>> 4988dd0 (сделал часть от CSS)
